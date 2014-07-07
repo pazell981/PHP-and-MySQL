@@ -1,0 +1,10 @@
+Introduction #10
+1. The output would be the array key, a dash, the value in the array at the key and a line break.
+2. The value and a line break would be outputed.
+3. The output would be the associative array key, a dash, the value in the array at the key and a line break.
+4. The value and a line break would be outputed.
+5. The key would be outputed with a line break.
+6. The key would be outputed, then each inner array indexes and values would be var_dumped.
+7. The string var_dumping value would be outputed followed by vardump of inner array.
+8. The string would be outputed with the index of the outer array, then inner array associative key, a dash and the value would be outputed.
+9.  The inner associative key, a dash and the value would be outputed.

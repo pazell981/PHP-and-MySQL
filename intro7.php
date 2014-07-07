@@ -12,16 +12,16 @@
 		<h1>Introduction #7</h1>
 		<ul>
 			<?php
-				$users = array();
 				$users['first_name']='Michael';
 				$users['last_name']='Choi';
-				echo "<p>There are " . count($users) . " keys in this array: " . key($users[0]) . ", " . key($users[1]);
-				echo ".</p><p>The value in the key ";
-				var_dump(array_keys($users, 0));
-				echo " is " . var_dump($users[array_keys($users, 0)]) . ".</p>";
-				echo "<p>The value in the key ";
-				var_dump(array_keys($users, 0));
-				echo " is " . var_dump($users[array_keys($users, 0)]) . ".</p>";
+				echo "<p>There are " . count($users) . " keys in this array: ";
+				foreach($users as $key => $value){
+					echo $key . ", ";
+				}
+				echo "</p>";
+				foreach($users as $key => $value){
+					echo "<p>The value in the key " . $key . " is " . $value . ".</p>";
+				}
 			?>
 		</ul>
 	</div>
